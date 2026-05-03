@@ -66,17 +66,7 @@ Since the default value is `all`, the `pytest -v` command targets both browsers.
 
 ## Current Test Scenarios
 
-### 1. Smoke Setup Test
-
-`tests/test_smoke_setup.py`
-
-This test:
-
-* Opens the browser
-* Goes to the eBay homepage
-* Validates that the page title is not empty
-
-### 2. Home Navigation Test
+### 1. Home Navigation Test
 
 `tests/test_home_navigation.py`
 
@@ -86,7 +76,7 @@ This test:
 * Waits until `ebay` appears in the title
 * Validates that the page loaded as expected
 
-### 3. Search Flow Test
+### 2. Search Flow Test
 
 `tests/test_search_flow.py`
 
